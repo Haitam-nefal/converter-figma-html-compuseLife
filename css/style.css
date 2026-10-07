@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     --background: #08111D;
     --bleu-color: #034BFF;
@@ -34,6 +36,7 @@ nav ul li a {
     text-decoration: none;
     margin-inline-start: 10px;
     color: #000;
+    font-size: 13px;
 }
 
 nav div {

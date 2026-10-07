@@ -1,0 +1,106 @@
+:root {
+    --background: #08111D;
+    --bg-secondary: #F4F7FC;
+    --bleu-color: #034BFF;
+    --color-lime: #C3F85C;
+    --white-color: #FFFF;
+    --account1-bg: #B8C9CF;
+    --account2-bg: #D7C3B6;
+
+}
+
+
+/* BUTTONS */
+
+.btn {
+    border-radius: 5px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border: none;
+}
+
+.btn-bleu {
+    background: var(--bleu-color);
+    color: white;
+}
+
+/* START HERO SECTION */
+#section {
+    min-height: 100vh;
+}
+
+section.hero-section {
+    display: flex;
+    align-items: center;
+    background-color: var(--background);
+    color: white;
+}
+
+section.hero-section header {
+    padding-inline: 50px;
+}
+
+section.hero-section header h1 {
+    font-size: 80px;
+}
+
+section.hero-section header h1 span {
+    color: var(--bleu-color);
+}
+
+section.hero-section header h2 {
+    font-weight: 800;
+}
+
+section.hero-section header p {
+    margin-block: 20px;
+    max-width: 60%;
+}
+
+section.hero-section header div.buttons {
+    margin-block: 35px;
+}
+
+section.hero-section header div.buttons .btn.btn-transparent {
+    background: transparent;
+    color: var(--white-color);
+    border: 1px solid var(--bleu-color);
+}
+
+section.hero-section header div.accounts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.hero-section header div.accounts div {
+    display: flex;
+    align-items: center;
+}
+
+section.hero-section header div.accounts span {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero-section header div.accounts span:nth-child(3),
+section.hero-section header div.accounts span:first-child {
+    background-color: var(--account1-bg);
+}
+
+section.hero-section header div.accounts span:nth-child(2),
+section.hero-section header div.accounts span:nth-child(4) {
+    background-color: var(--account2-bg);
+}
+
+section.hero-section header div.accounts p {
+    font-weight: 100;
+    max-width: 30%;
+}
+
+/* END HERO SECTION */
