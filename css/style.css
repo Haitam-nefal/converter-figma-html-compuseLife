@@ -11,6 +11,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    list-style: none;
+}
+
+span.logo {
+    font-size: 21px;
+    font-weight: 800;
 }
 
 /* START NAVBAR */
@@ -20,11 +28,6 @@ nav {
     align-items: center;
     padding-inline: 40px;
     min-height: 52px;
-}
-
-nav span.logo {
-    font-size: 21px;
-    font-weight: 800;
 }
 
 nav ul {
@@ -60,6 +63,5 @@ nav div button {
     border-radius: 10px;
     max-width: 120px;
 }
-
 
 /* END NAVBAR */
