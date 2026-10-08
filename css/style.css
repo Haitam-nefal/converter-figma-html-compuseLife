@@ -21,8 +21,6 @@ span.logo {
     font-weight: 800;
 }
 
-header.custom_header {}
-
 header.custom_header h2 {
     font-size: 30px;
 }
@@ -74,6 +72,13 @@ nav div button {
     margin-left: 40px;
     border-radius: 10px;
     max-width: 120px;
+}
+
+
+@media (max-width: 925px) {
+    nav ul {
+        display: none;
+    }
 }
 
 /* END NAVBAR */
@@ -128,6 +133,41 @@ nav div button {
     font-size: 12px;
     font-weight: 200;
 }
+
+@media(max-width: 800px) {
+    #footer {
+        padding: 30px 15px;
+    }
+
+    #footer .top_footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .top_footer div p {
+        max-width: 100%;
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #footer .top_footer div ul li {
+        text-align: center;
+        margin-block: 5px;
+    }
+
+    #footer .bottom_footer {
+        flex-direction: column;
+    }
+
+    #footer .bottom_footer p {
+        margin-block: 5px;
+        text-align: center;
+    }
+}
+
 
 /* END FOOTER */
 
