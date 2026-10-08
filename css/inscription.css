@@ -1,0 +1,54 @@
+:root {
+    --background: #08111D;
+    --bleu-color: #034BFF;
+    --color-lime: #C3F85C;
+    --white-color: #FFFF;
+}
+
+main {
+    min-height: 100vh;
+    padding: 30px 40px;
+}
+
+
+main form {
+    margin-top: 40px;
+    max-width: 70%;
+}
+
+main form div {
+    margin: 15px 0;
+}
+
+main form div:nth-child(5) {
+    max-width: fit-content;
+}
+
+main form div:nth-child(5) div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main form div label {
+    font-weight: 400;
+}
+
+main form div input {
+    display: block;
+    min-width: 100%;
+    padding: 8px 14px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+main form button {
+    background-color: var(--bleu-color);
+    color: var(--white-color);
+    min-width: 100%;
+    padding: 10px 20px;
+    border: none;
+    text-align: start;
+    border-radius: 5px;
+}

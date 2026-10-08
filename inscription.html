@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inscription.css" />
 </head>
 
 <body>
     <nav>
         <span class="logo">[YouCode]</span>
         <ul>
-            <li><a href="#">Accueil</a></li>
+            <li><a href="/index.html">Accueil</a></li>
             <li><a href="#">Campuse</a></li>
             <li><a href="#">Club & activite</a></li>
             <li><a href="#">Evenemet</a></li>
@@ -25,6 +26,84 @@
     </nav>
 
 
+    <main>
+        <header class="custom_header">
+            <span>TES PREMIERS PAS À YOUCODE</span>
+            <h1>Ton aventure commence par une rencontre</h1>
+        </header>
+
+        <form>
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" placeholder="label">
+            </div>
+            <div>
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="label">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="label">
+            </div>
+            <div>
+                <label for="telephone">Telephone</label>
+                <input type="text" name="telephone" id="telephone" placeholder="label">
+            </div>
+            <div>
+                <div>
+                    <input type="radio" name="campus" id="safi" value="safi">
+                    <label for="safi">Safi</label>
+                </div>
+                <div>
+                    <input type="radio" name="campus" id="youssoufia" value="youssoufia">
+                    <label for="youssoufia">Youssoufia</label>
+                </div>
+                <div>
+                    <input type="radio" name="campus" id="nador" value="nador">
+                    <label for="nador">Nador</label>
+                </div>
+            </div>
+            <button id="buttonSubmit">S'incrire</button>
+        </form>
+    </main>
+
+
+    <footer id="footer">
+        <div class="top_footer">
+            <div>
+                <span class="logo">[YouCode]</span>
+                <p>Une communauté d'apprenants, de projets et d'événements pour te faire grandir.</p>
+            </div>
+            <div>
+                <ul>
+                    <li>CAMPUS</li>
+                    <li>Explorer le campus</li>
+                    <li>Clubs & activités</li>
+                    <li>Événements</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>RÉSEAUX</li>
+                    <li>Instagram</li>
+                    <li>LinkedIn</li>
+                    <li>Discord</li>
+                </ul>
+            </div>
+            <div>
+                <span class="">REJOINDRE L'AVENURE</span>
+                <button class="btn">Explorer le campus ↗</button>
+            </div>
+        </div>
+        <div class="bottom_footer">
+            <p>© 2024 YouCode Campus Life. Tous droits réservés.</p>
+            <p>Mentions légales</p>
+            <p>Politique de confidentialité</p>
+        </div>
+    </footer>
+
+
+    <script src="js/inscription.js"></script>
 </body>
 
 </html>

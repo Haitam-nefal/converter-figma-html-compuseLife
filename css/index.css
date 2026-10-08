@@ -9,20 +9,6 @@
 
 }
 
-/* BUTTONS */
-
-.btn {
-    border-radius: 5px;
-    padding-inline: 20px;
-    padding-block: 10px;
-    border: none;
-}
-
-.btn-bleu {
-    background: var(--bleu-color);
-    color: white;
-}
-
 /* START HERO SECTION */
 #section {
     min-height: 100vh;
@@ -400,55 +386,3 @@ section.seconde_section .images img:nth-child(2){
 }
 
 /* END CLIENT REVIEW  */
-
-/* START FOOTER */
-#footer {
-    background-color: var(--background);
-    padding: 50px 30px;
-    color: var(--white-color);
-}
-
-#footer .top_footer {
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer .top_footer div p {
-    max-width: 60%;
-    margin-top: 20px;
-    font-weight: 200;
-    font-size: 14px;
-}
-
-#footer .top_footer div span:not(.logo),
-#footer .top_footer div ul li:first-child {
-    color: var(--color-lime);
-    font-size: 12px;
-    font-weight: 200;
-    margin-bottom: 20px;
-    display: block;
-}
-
-#footer .top_footer div ul li:not(:first-child) {
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: 300;
-}
-
-#footer .top_footer div button.btn {
-    background-color: var(--color-lime);
-    cursor: pointer;
-}
-
-#footer .bottom_footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-#footer .bottom_footer p {
-    font-size: 12px;
-    font-weight: 200;
-}
-
-/* END FOOTER */
