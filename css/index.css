@@ -157,11 +157,35 @@ section.hero-section header div.accounts p {
     padding-block: 30px;
 }
 
-
 .info-content .box {
     display: flex;
     align-items: center;
 }
+
+.info-content .box:not(:last-child)::after {
+    content: "";
+    position: relative;
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    left: 60%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+
+@media(max-width: 1200px) {
+    .info-content .box:not(:last-child)::after {
+        left: 30%;
+    }
+}
+
+@media(max-width: 925px) {
+    .info-content .box:not(:last-child)::after {
+        left: 10%;
+    }
+}
+
 
 .info-content .box .fa-solid {
     display: block;
