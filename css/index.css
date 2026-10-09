@@ -6,7 +6,6 @@
     --white-color: #FFFF;
     --account1-bg: #B8C9CF;
     --account2-bg: #D7C3B6;
-
 }
 
 /* START HERO SECTION */
@@ -345,8 +344,9 @@ section.seconde_section .images img:nth-child(2) {
 
 .youcode_journy .container {
     display: grid;
-    grid-template-columns: repeat(6, minmax(80px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
     margin-top: 30px;
 }
 
@@ -389,11 +389,6 @@ section.seconde_section .images img:nth-child(2) {
     .youcode_journy {
         padding-block: 10px;
         padding-inline: 5px;
-    }
-
-    .youcode_journy .container {
-        grid-template-columns: 1fr;
-        gap: 15px;
     }
 }
 

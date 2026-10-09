@@ -2,9 +2,12 @@
 
 :root {
     --background: #08111D;
+    --bg-secondary: #F4F7FC;
     --bleu-color: #034BFF;
     --color-lime: #C3F85C;
     --white-color: #FFFF;
+    --account1-bg: #B8C9CF;
+    --account2-bg: #D7C3B6;
 }
 
 * {
@@ -74,6 +77,11 @@ nav div button {
     max-width: 120px;
 }
 
+
+nav div button a {
+    text-decoration: none;
+    color: var(--white-color);
+}
 
 @media (max-width: 925px) {
     nav ul {
